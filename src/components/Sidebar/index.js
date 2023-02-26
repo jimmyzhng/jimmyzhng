@@ -1,8 +1,8 @@
 import { Link, NavLink } from 'react-router-dom';
 import './index.scss';
 import LogoJ from '../../assets/images/logoJC.png';
-import LogoSubtitle from '../../assets/images/logoSubC.png';
-import { FaHome, FaUser, FaEnvelope, FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
+import LogoSubtitle from '../../assets/images/logo-sub.png';
+import { FaHome, FaUser, FaEnvelope, FaLinkedin, FaGithub, FaTwitter, FaCode } from 'react-icons/fa';
 
 export default function Sidebar() {
   return (
@@ -19,6 +19,10 @@ export default function Sidebar() {
 
         <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
           <FaUser color="#4d4d4e" />
+        </NavLink>
+
+        <NavLink exact="true" activeclassname="active" className="portfolio-link" to="/portfolio">
+          <FaCode color="#4d4d4e" />
         </NavLink>
 
         <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">

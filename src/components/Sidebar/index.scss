@@ -87,6 +87,12 @@
       }
     }
 
+    a.portfolio-link {
+      &:after {
+        content: "MY WORK";
+      }
+    }
+
     a.active {
       svg {
         color: #ffe77a !important;

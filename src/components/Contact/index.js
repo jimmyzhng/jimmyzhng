@@ -3,6 +3,7 @@ import { Loader } from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 import { useEffect, useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { MapContainer, TileLayer, useMap } from 'react-leaflet';
 
 export default function Contact() {
   const [letterClass, setLetterClass] = useState('text-animate');
