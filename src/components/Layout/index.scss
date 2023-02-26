@@ -20,7 +20,7 @@
 }
 
 .bottom-tag-html {
-  margin-left: 20px;
+  margin-left: -20px;
 }
 
 .container {
@@ -38,7 +38,8 @@
   animation-delay: 1s;
 }
 
-.about-page {
+.about-page,
+.contact-page {
   .text-zone {
     position: absolute;
     left: 10%;
@@ -86,7 +87,7 @@
 
   p {
     font-style: 13px;
-    color: #fff;
+    color: #ebe8e2;
     font-family: sans-serif;
     font-weight: 300;
     min-width: fit-content;
@@ -108,6 +109,6 @@
 
 .text-animate-hover {
   &:hover {
-    color: #fff;
+    color: #ebe8e2;
   }
 }

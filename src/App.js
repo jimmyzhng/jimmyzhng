@@ -5,7 +5,7 @@ import './App.scss';
 import About from './components/About';
 import Contact from './components/Contact';
 
-function App() {
+export default function App() {
   return (
     <>
       <Routes>
@@ -19,5 +19,3 @@ function App() {
     </>
   );
 }
-
-export default App;
