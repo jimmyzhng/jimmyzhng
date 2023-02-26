@@ -1,4 +1,4 @@
-[Typing SVG](https://readme-typing-svg.herokuapp.com?font=Helvetica+Neue&weight=500&size=25&duration=2500&pause=250&color=2C5F2D&center=true&vCenter=true&multiline=true&repeat=false&width=435&height=100&lines=Jimmy+Zhang;Full-Stack+Web+Developer)
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Helvetica+Neue&weight=500&size=25&duration=2500&pause=250&color=2C5F2D&center=true&vCenter=true&multiline=true&repeat=false&width=435&height=100&lines=Jimmy+Zhang;Full-Stack+Web+Developer" alt="Typing SVG" /></a>
 
 # My Github Stats:
 
