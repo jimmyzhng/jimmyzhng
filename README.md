@@ -10,7 +10,7 @@
 
 - 🎓 Graduated in 2022 at UBC with an Economics degree (with a minor in Commerce)
 
-Check out my portfolio [website](www.jimmyzhng.com)! ( under construction :^) )
+Check out my portfolio [website](http://www.jimmyzhng.com)! ( under construction :^) )
 
 ## 📈 My Github Stats:
 
