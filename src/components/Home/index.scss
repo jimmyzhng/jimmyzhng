@@ -27,7 +27,7 @@
     }
 
     &::after {
-      content: "<h1/>";
+      content: "</h1>";
       font-family: "La Belle Aurore";
       color: #ffe77a;
       font-size: 18px;
@@ -72,12 +72,12 @@
     float: left;
     animation: fadeIn 1s 1.8s backwards;
     white-space: nowrap;
-    opacity: 0.9;
+    opacity: 0.75;
 
     &:hover {
       background-color: #ffe77a;
       color: #333;
-      opacity: 0.9;
+      opacity: 0.75;
     }
   }
 }
