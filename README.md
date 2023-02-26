@@ -2,7 +2,15 @@
 <img align="center" src="https://readme-typing-svg.herokuapp.com?font=Helvetica+Neue&weight=500&size=25&duration=2500&pause=250&color=2C5F2D&center=true&vCenter=true&multiline=true&repeat=false&width=435&height=100&lines=Jimmy+Zhang;Full-Stack+Web+Developer" alt="Typing SVG" />
 </p>
 
-Check out my portfolio [website!](www.jimmyzhng.com) (under construction!)
+**About me**
+
+- 💻 Currently looking for employment opportunities as a developer!
+
+- 👨‍💻 Recent web development graduate at Lighthouse Labs (February 2023)
+
+- 🎓 Graduated in 2022 at UBC with an Economics degree (with a minor in Commerce)
+
+Check out my portfolio [website](www.jimmyzhng.com)! ( under construction :^) )
 
 ## 📈 My Github Stats:
 
