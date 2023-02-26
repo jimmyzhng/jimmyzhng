@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import { useEffect, useState } from 'react';
+import Logo from './Logo';
 
 export default function Home() {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -38,6 +39,7 @@ export default function Home() {
         <Link to="https://resume.creddle.io/resume/b0vfq90c1j7" target="_blank" className='flat-button'>RESUME</Link>
 
       </div>
+      <Logo />
     </div>
   );
 }
