@@ -2,7 +2,7 @@ import { Link, NavLink } from 'react-router-dom';
 import './index.scss';
 import LogoJ from '../../assets/images/logoJC.png';
 import LogoSubtitle from '../../assets/images/logo-sub.png';
-import { FaHome, FaUser, FaEnvelope, FaLinkedin, FaGithub, FaTwitter, FaCode } from 'react-icons/fa';
+import { FaHome, FaUser, FaEnvelope, FaLinkedin, FaGithub, FaTwitter, FaCode, FaMedium } from 'react-icons/fa';
 
 export default function Sidebar() {
   return (
@@ -40,6 +40,12 @@ export default function Sidebar() {
         <li>
           <a target="_blank" rel='noreferrer' href='https://github.com/jimmyzhng'>
             <FaGithub color="4d4d4e" />
+          </a>
+        </li>
+
+        <li>
+          <a target="_blank" rel='noreferrer' href='https://medium.com/@jimmyzhng'>
+            <FaMedium color="4d4d4e" />
           </a>
         </li>
 

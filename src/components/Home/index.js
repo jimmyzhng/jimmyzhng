@@ -8,8 +8,8 @@ import Loader from 'react-loaders';
 
 export default function Home() {
   const [letterClass, setLetterClass] = useState('text-animate');
-  const nameArray = `immy,`.split('');
-  const jobArray = `web developer.`.split('');
+  const nameArray = `immy.`.split('');
+  const jobArray = `A web developer.`.split('');
   // console.log(nameArray);
 
   useEffect(() => {
