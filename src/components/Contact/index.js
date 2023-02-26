@@ -17,9 +17,9 @@ export default function Contact() {
   const sendEmail = e => {
     e.preventDefault();
 
-    emailjs.sendForm('service_5rb0gvl', 'template_kg8e9ro', refForm.current, 'pTriy6CfdSkH5cqEM')
+    emailjs.sendForm('service_5rb0gvl', 'template_x1zq7bs', refForm.current, 'pTriy6CfdSkH5cqEM')
       .then((result) => {
-        console.log(result.text);
+        console.log(result);
         alert('Thank you for your message! It has been successfully sent.');
         window.location.reload(false);
       }, (error) => {

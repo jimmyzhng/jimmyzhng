@@ -66,4 +66,12 @@ textarea {
   border: 1px solid #ffe77a;
   float: right;
   border-radius: 4px;
+  opacity: 0.75;
+
+  &:hover {
+    background-color: #ffe77a;
+    color: #333;
+    opacity: 0.75;
+    cursor: pointer;
+  }
 }
