@@ -2,16 +2,8 @@
 
 ## My Github Stats:
 
-<!-- <a>
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=jimmyzhng" />
-</a>
-
-<a href="https://github.com/anuraghazra/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jimmyzhng&layout=compact" />
-</a> -->
-
-| <a><img align="center" src="https://github-readme-stats.vercel.app/api?username=jimmyzhng&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true"/></a> | <a><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jimmyzhng&layout=compact&theme=buefy&hide_border=true" /></a> |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <a><img align="center" src="https://github-readme-stats.vercel.app/api?username=jimmyzhng&show_icons=true&include_all_commits=true&theme=graywhite&hide_border=true"/></a> | <a><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jimmyzhng&layout=compact&theme=graywhite&hide_border=true" /></a> |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 ## What I'm Listening To:
 
