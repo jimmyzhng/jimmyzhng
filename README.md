@@ -2,9 +2,13 @@
 
 ## My Github Stats:
 
-![](https://raw.githubusercontent.com/jimmyzhng/github-stats/master/generated/overview.svg#gh-light-mode-only)
-![](https://raw.githubusercontent.com/jimmyzhng/github-stats/master/generated/languages.svg#gh-light-mode-only)
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=jimmyzhng" />
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=jimmyzhng" />
+</a>
 
-### What I'm Listening To:
+## What I'm Listening To:
 
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=jimmyzhng&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=jimmyzhng&redirect=true)
