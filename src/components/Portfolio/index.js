@@ -7,7 +7,7 @@ import PortfolioInfoBox from './PortfolioInfoBox';
 
 export default function Portfolio() {
   const [letterClass, setLetterClass] = useState('text-animate');
-  console.log(portfolioData);
+  // console.log(portfolioData);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -25,17 +25,19 @@ export default function Portfolio() {
         {
           portfolio.map((project, index) => {
             return (
-              <div className="project-container" key={index}>
-                <video className="portfolio-video" alt="portfolio" width="800" height="800" autoPlay muted>
+              <div className={`project-container project-${index + 1}`} key={index}>
+                <video className="portfolio-video" alt="portfolio" autoPlay controls muted playsInLine loop>
                   <source src={project.video} type="video/mp4" />
                 </video>
 
-                <PortfolioInfoBox
-                  title={project.title}
-                  description={project.description}
-                  url={project.url}
-                  demo={project.demo}
-                />
+                <div className="portfolio-info fade-in">
+                  <PortfolioInfoBox
+                    title={project.title}
+                    description={project.description}
+                    stack={project.stack}
+                    url={project.url}
+                  />
+                </div>
               </div>
             );
 

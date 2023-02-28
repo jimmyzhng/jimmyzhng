@@ -11,3 +11,30 @@
     margin-top: 100px;
   }
 }
+
+.portfolio-video {
+  display: flex;
+  width: 60%;
+  border-radius: 15px;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 275px;
+}
+
+.project-1 {
+  margin-top: 75px;
+}
+
+.portfolio-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #ffe880;
+  border-radius: 15px;
+  margin-left: 25px;
+}

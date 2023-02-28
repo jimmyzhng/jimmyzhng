@@ -75,6 +75,40 @@
     }
   }
 
+  h2 {
+    font-size: 42px;
+    font-family: "Coolvetica";
+    color: #ffe77a;
+    font-weight: 400;
+    margin-top: 0;
+    position: relative;
+    margin-bottom: 40px;
+    left: 10px;
+
+    &::before {
+      content: "<h2>";
+      font-family: "La Belle Aurore";
+      font-size: 18px;
+      position: absolute;
+      margin-top: -10px;
+      opacity: 0.6;
+      left: -10px;
+      line-height: 18px;
+    }
+
+    &::after {
+      content: "</h2>";
+      font-family: "La Belle Aurore";
+      font-size: 18px;
+      line-height: 18px;
+      position: absolute;
+      left: -30px;
+      bottom: -20px;
+      margin-left: 20px;
+      opacity: 0.6;
+    }
+  }
+
   p {
     font-style: 13px;
     color: #ebe8e2;
