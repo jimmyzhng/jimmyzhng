@@ -10,7 +10,7 @@
 
 - 🎓 Graduated in 2022 at UBC with an Economics degree (with a minor in Commerce)
 
-Check out my portfolio [website](http://www.jimmyzhng.com)! ( under construction :^) )
+Check out my portfolio [website](https://www.jimmyzhng.com) ( under construction :^) )
 
 ## 📈 My Github Stats:
 
@@ -20,3 +20,5 @@ Check out my portfolio [website](http://www.jimmyzhng.com)! ( under construction
 ## 🎶 What I'm Listening To:
 
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=jimmyzhng&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=jimmyzhng&redirect=true)
+
+![](https://komarev.com/ghpvc/?username=jimmyzhng&style=for-the-badge&color=0002fd)
