@@ -13,10 +13,10 @@
 Check out my portfolio [website](https://www.jimmyzhng.com) ( under construction :^) )
 
 <a href="https://www.linkedin.com/in/jimmyzhng/">
-<img align="left" src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="icon | LinkedIn" width="21px"/>
+<img align="left" src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" width="42px"/>
 </a>
 
-<a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a>
+<a href="mailto:jimmyzhang1@hotmail.com"><img src="https://cdn-icons-png.flaticon.com/512/9068/9068642.png" width="42px"/></a>
 
 ## 📈 My Github Stats:
 
