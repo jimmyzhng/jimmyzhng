@@ -21,11 +21,7 @@ export default function PortfolioInfoBox({ title, description, stack, url, demo 
     <div className="info-box">
       <div className="project-title">
         <h2>
-          <AnimatedLetters
-            letterClass={letterClass}
-            strArray={title.split('')}
-            index={15}
-          />
+          {title}
         </h2>
       </div>
 
