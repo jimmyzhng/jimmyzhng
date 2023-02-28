@@ -12,6 +12,12 @@
 
 Check out my portfolio [website](https://www.jimmyzhng.com) ( under construction :^) )
 
+<a href="https://www.linkedin.com/in/jimmyzhng/">
+<img align="left" src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="icon | LinkedIn" width="21px"/>
+</a>
+
+<a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a>
+
 ## 📈 My Github Stats:
 
 | <a><img align="center" src="https://github-readme-stats.vercel.app/api?username=jimmyzhng&show_icons=true&include_all_commits=true&theme=graywhite&hide_border=true"/></a> | <a><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jimmyzhng&layout=compact&theme=graywhite&hide_border=true" /></a> |
