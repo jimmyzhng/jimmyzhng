@@ -21,4 +21,4 @@ Check out my portfolio [website](https://www.jimmyzhng.com) ( under construction
 
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=jimmyzhng&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=jimmyzhng&redirect=true)
 
-![](https://komarev.com/ghpvc/?username=jimmyzhng&style=for-the-badge&color=0002fd)
+![](https://komarev.com/ghpvc/?username=jimmyzhng&color=0002fd)
