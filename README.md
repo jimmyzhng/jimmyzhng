@@ -13,10 +13,10 @@
 Check out my portfolio [website](https://www.jimmyzhng.com) ( under construction :^) )
 
 <a href="https://www.linkedin.com/in/jimmyzhng/">
-<img align="left" src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" width="42px"/>
+<img align="left" src="https://cdn-icons-png.flaticon.com/512/145/145807.png" width="35px"/>
 </a>
 
-<a href="mailto:jimmyzhang1@hotmail.com"><img src="https://cdn-icons-png.flaticon.com/512/9068/9068642.png" width="42px"/></a>
+<a href="mailto:jimmyzhang1@hotmail.com"><img src="https://cdn-icons-png.flaticon.com/512/9068/9068642.png" width="35px"/></a>
 
 ## 📈 My Github Stats:
 
