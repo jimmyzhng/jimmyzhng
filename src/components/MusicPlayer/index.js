@@ -1,7 +1,8 @@
-import { useState } from 'react';
-import { IoPlayBack, IoPlay, IoPlayForward, IoPause } from 'react-icons/io5';
+import { useRef, useState } from 'react';
+import { IoPlayBack, IoPlay, IoPlayForward, IoPause, IoCloseCircle, IoMusicalNotes } from 'react-icons/io5';
 import ReactPlayer from 'react-player';
 import './index.scss';
+import ProgressBar from 'react-bootstrap/ProgressBar';
 
 const playlist = [
   {
@@ -51,11 +52,14 @@ const playlist = [
 ];
 
 export default function MusicPlayer() {
+  const [musicPlayerOpen, setMusicPlayerOpen] = useState(true);
   const [playing, setPlaying] = useState(false);
   const [volume, setVolume] = useState(0.5);
   const [currentMusic, setCurrentMusic] = useState(playlist[0]);
+  const [played, setPlayed] = useState(0);
+  const playerRef = useRef(null);
 
-  console.log('Current Music', currentMusic);
+  // console.log('Current Music', currentMusic);
 
   const findIndexByName = (song) => {
     if (playlist) {
@@ -65,6 +69,11 @@ export default function MusicPlayer() {
   };
 
   const playback = () => {
+    // If we aren't at 0 seconds, go to beginning of the track
+    if (played !== 0) {
+      return playerRef.current.seekTo(0);
+    }
+
     // If there is no earlier track, 
     if (!playlist[findIndexByName(currentMusic) - 1]) {
       return null;
@@ -82,35 +91,53 @@ export default function MusicPlayer() {
     return setCurrentMusic(playlist[findIndexByName(currentMusic) + 1]);
   };
 
+  const handleProgress = (song) => {
+    setPlayed(song.played);
+  };
+
   return (
     <div className='music-player-container'>
       <ReactPlayer
+        ref={playerRef}
         className='react-player'
         url={currentMusic.url}
         width='0'
         height='0'
         playing={playing}
         volume={volume}
-        onProgress
+        onProgress={handleProgress}
       />
 
-      <div className='music-player'>
-        <a className='music-title' href={currentMusic.url} target='_blank'>{currentMusic.name}</a>
+      <div className={musicPlayerOpen ? 'music-player' : 'minimized'}>
 
-        <div className='music-controls'>
+        {musicPlayerOpen ? (
+          <div>
+            <IoCloseCircle onClick={() => setMusicPlayerOpen(false)} className="music-player-close" />
+            <a className='music-title' href={currentMusic.url} target='_blank'>{currentMusic.name}</a>
 
-          <IoPlayBack onClick={playback} className='playback-button' />
-          {playing ?
-            <IoPause className='pause-button' onClick={() => setPlaying(false)} />
-            : <IoPlay onClick={() => setPlaying(true)} className='play-button' />}
+            <ProgressBar now={played} min="0" max="1" className="progress-bar" visuallyHidden />
 
-          <IoPlayForward onClick={playForward} className='playforward-button' />
+            <div className='music-controls'>
 
-          <input type="range" min="0" max="1" value={volume} onChange={e => setVolume(parseInt(e.target.value))} class="slider" id="myRange" />
+              <IoPlayBack onClick={playback} className='playback-button' />
+              {playing ?
+                <IoPause className='pause-button' onClick={() => setPlaying(false)} />
+                : <IoPlay onClick={() => setPlaying(true)} className='play-button' />}
 
+              <IoPlayForward onClick={playForward} className='playforward-button' />
 
-        </div>
+              <input
+                type="range" min="0" max="1"
+                step="any" value={volume}
+                onChange={e => setVolume(parseFloat(e.target.value))}
+                class="slider" id="myRange" />
+
+            </div>
+          </div>
+        ) : <IoMusicalNotes onClick={() => setMusicPlayerOpen(true)} className='music-player-opener' />}
+
       </div>
+
     </div>);
 
 }

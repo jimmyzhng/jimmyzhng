@@ -7,7 +7,7 @@ export default function Layout() {
   return (
     <div className="App">
       <Sidebar />
-      <MusicPlayer />
+      <MusicPlayer className='music-player' />
 
       <div className='page'>
         <span className='tags top-tag-html'>&lt;html&gt;</span>
