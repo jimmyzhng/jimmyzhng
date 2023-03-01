@@ -1,15 +1,15 @@
 const playlist = [
   {
     name: 'Seven Lions @ Lake Kachess',
-    url: 'https://www.youtube.com/watch?v=D7CaablOAY8&t=1101s&ab_channel=SEVENLIONSofficial'
+    url: 'https://youtu.be/D7CaablOAY8&t=00s'
   },
   {
     name: 'Gryffin (DJ Set) @ Kauai, Hawaii',
-    url: 'https://www.youtube.com/watch?v=0fStWP79Z5A&ab_channel=GRYFFIN'
+    url: 'https://youtu.be/0fStWP79Z5A&t=00s'
   },
   {
     name: 'John Summit @ Zamna Tulum',
-    url: 'https://www.youtube.com/watch?v=wwqqWzlrL6M&t=3184s&ab_channel=JohnSummit'
+    url: 'https://youtu.be/wwqqWzlrL6M&t=00s'
   },
   {
     name: 'Ben Bohmer @ Cappadocia, Turkey',
@@ -29,11 +29,24 @@ const playlist = [
   },
   {
     name: 'Delta Heavy @ Rampage 2022',
-    url: 'https://www.youtube.com/watch?v=ghOdbnsFwFQ&t=90s&ab_channel=WeAreRampageEvents'
+    url: 'https://www.youtube.com/watch?v=ghOdbnsFwFQ&ab_channel=WeAreRampageEvents'
   },
   {
-    name: 'Jason Ross @ EDC LV 2022',
-    url: 'https://www.youtube.com/watch?v=FokLg160lN8&t=37s&ab_channel=JasonRoss'
+    name: "ZHU @ Hakuba Iwatake (Japan)",
+    url: 'https://www.youtube.com/watch?v=XHNHq1mC0VQ&ab_channel=Cercle'
+  },
+  {
+    name: 'Ben Bohmer @ Anjunadeep Prague',
+    url: 'https://www.youtube.com/watch?v=b9kThoLdDc8&ab_channel=Anjunadeep'
+  },
+  {
+    name: 'Tchami - Elevation Sunrise Set',
+    url: 'https://www.youtube.com/watch?v=CQBV6cxeI40&t=24s&ab_channel=Tchami'
+  },
+
+  {
+    name: 'John Summit - BBC Radio Essential Mix',
+    url: 'https://www.youtube.com/watch?v=S0Q1GElnrwY&ab_channel=JohnSummit'
   },
   {
     name: 'Fred again.. @ Boiler Room',
@@ -41,7 +54,7 @@ const playlist = [
   },
   {
     name: 'SpongeBob Relaxing Music',
-    url: 'https://www.youtube.com/watch?v=XWsptjpzBW0&t=2320s&ab_channel=giamoforti'
+    url: 'https://www.youtube.com/watch?v=XWsptjpzBW0&ab_channel=giamoforti'
   },
 ];
 

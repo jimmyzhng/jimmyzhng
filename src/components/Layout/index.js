@@ -7,7 +7,11 @@ export default function Layout() {
   return (
     <div className="App">
       <Sidebar />
-      <MusicPlayer className='music-player' />
+
+      <div className="music-player-container">
+        <MusicPlayer className='music-player' />
+      </div>
+
 
       <div className='page'>
         <span className='tags top-tag-html'>&lt;html&gt;</span>

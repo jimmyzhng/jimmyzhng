@@ -157,8 +157,17 @@
     display: none;
   }
 
-  .music-player {
-    position: fixed;
+  .music-player-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    .music-player,
+    .minimized {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+    }
   }
 
   .page {

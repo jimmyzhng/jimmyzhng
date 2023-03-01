@@ -11,14 +11,15 @@
 
   svg {
     width: 100%;
+    top: -100px;
     height: auto;
-    bottom: 0;
+    bottom: auto;
     transform: rotateZ(30deg) !important;
   }
 
   .solid-logo {
     position: absolute;
-    top: auto;
+    top: 0px;
     right: auto;
     bottom: auto;
     left: 0;

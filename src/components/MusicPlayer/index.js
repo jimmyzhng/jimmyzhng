@@ -11,17 +11,8 @@ export default function MusicPlayer() {
   const [volume, setVolume] = useState(0.5);
   const [currentMusic, setCurrentMusic] = useState(playlist[0]);
   const [played, setPlayed] = useState(0);
+  const [isFirstTimePlaying, setIsFirstTimePlaying] = useState(true);
   const playerRef = useRef(null);
-
-  // useEffect(() => {
-  //   console.log('UseEffect here');
-  //   console.log('currentMusic', currentMusic);
-  //   console.log('PlayerRef Current', playerRef.current);
-
-  //   if (played > 0) {
-  //     return playerRef.current.seekTo(0);
-  //   }
-  // }, [currentMusic]);
 
   if (played === 1) {
     return playForward();
@@ -53,14 +44,32 @@ export default function MusicPlayer() {
   const playForward = () => {
     // If there is no next track, restart from beginning
     if (!playlist[findIndexByName(currentMusic) + 1]) {
-      return setCurrentMusic(playlist[0]);
+      setCurrentMusic(playlist[0]);
+    } else {
+      setCurrentMusic(playlist[findIndexByName(currentMusic) + 1]);
     }
-
-    return setCurrentMusic(playlist[findIndexByName(currentMusic) + 1]);
+    setIsFirstTimePlaying(true);
+    setVolume(0);
   };
 
   const handleProgress = (song) => {
     setPlayed(song.played);
+  };
+
+  const handlePlay = () => {
+    console.log('handlePlay');
+    console.log('Current Song', currentMusic);
+
+    if (isFirstTimePlaying) {
+
+      console.log('played before seekTo', played);
+      playerRef.current.seekTo(0);
+      setVolume(0.5);
+
+      console.log('played after seekTo', played);
+      setIsFirstTimePlaying(false);
+    }
+
   };
 
   return (
@@ -75,6 +84,7 @@ export default function MusicPlayer() {
         volume={volume}
         onEnded={() => playForward()}
         onProgress={handleProgress}
+        onPlay={handlePlay}
       />
 
       <div className={musicPlayerOpen ? 'music-player' : 'minimized'}>
