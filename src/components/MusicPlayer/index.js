@@ -5,8 +5,8 @@ import './index.scss';
 
 const playlist = [
   {
-    name: 'Sub Focus & Wilkinson @ Corfe Castle',
-    url: 'https://www.youtube.com/watch?v=TRh-amAhOEw&ab_channel=Mixmag'
+    name: 'Seven Lions @ Lake Kachess',
+    url: 'https://www.youtube.com/watch?v=D7CaablOAY8&t=1101s&ab_channel=SEVENLIONSofficial'
   },
   {
     name: 'Gryffin @ Kauai, Hawaii',
@@ -17,20 +17,28 @@ const playlist = [
     url: 'https://www.youtube.com/watch?v=wwqqWzlrL6M&t=3184s&ab_channel=JohnSummit'
   },
   {
+    name: 'Ben Bohmer @ Cappadocia, Turkey',
+    url: 'https://www.youtube.com/watch?v=RvRhUHTV_8k&ab_channel=Cercle'
+  },
+  {
+    name: 'Anjunadeep 11 - Continuous Mix',
+    url: 'https://www.youtube.com/watch?v=-9BM6jGxW5Y&ab_channel=Anjunadeep'
+  },
+  {
+    name: 'Anjunadeep 13 - Continuous Mix',
+    url: 'https://www.youtube.com/watch?v=QM7L27N8-rE&ab_channel=Anjunadeep'
+  },
+  {
+    name: 'Sub Focus & Wilkinson @ Corfe Castle',
+    url: 'https://www.youtube.com/watch?v=TRh-amAhOEw&ab_channel=Mixmag'
+  },
+  {
     name: 'Delta Heavy @ Rampage 2022',
     url: 'https://www.youtube.com/watch?v=ghOdbnsFwFQ&t=90s&ab_channel=WeAreRampageEvents'
   },
   {
-    name: 'Seven Lions @ Lake Kachess',
-    url: 'https://www.youtube.com/watch?v=D7CaablOAY8&t=1101s&ab_channel=SEVENLIONSofficial'
-  },
-  {
     name: 'Jason Ross @ EDC LV 2022',
     url: 'https://www.youtube.com/watch?v=FokLg160lN8&t=37s&ab_channel=JasonRoss'
-  },
-  {
-    name: 'SLANDER @ Long Beach Arena',
-    url: 'https://www.youtube.com/watch?v=c_G7jPdx3OU&ab_channel=SLANDER'
   },
   {
     name: 'Fred again.. @ Boiler Room',
@@ -47,7 +55,7 @@ export default function MusicPlayer() {
   const [volume, setVolume] = useState(0.5);
   const [currentMusic, setCurrentMusic] = useState(playlist[0]);
 
-  console.log('Current Music line 50', currentMusic);
+  console.log('Current Music', currentMusic);
 
   const findIndexByName = (song) => {
     if (playlist) {
@@ -56,11 +64,18 @@ export default function MusicPlayer() {
     };
   };
 
+  const playback = () => {
+    // If there is no earlier track, 
+    if (!playlist[findIndexByName(currentMusic) - 1]) {
+      return null;
+    }
+
+    return setCurrentMusic(playlist[findIndexByName(currentMusic) - 1]);
+  };
+
   const playForward = () => {
-    // console.log('currentMusic line 60', currentMusic);
     // If there is no next track, restart from beginning
-    if (playlist[findIndexByName(currentMusic) + 1] === undefined) {
-      // console.log('Next index is undefined. We should restart');
+    if (!playlist[findIndexByName(currentMusic) + 1]) {
       return setCurrentMusic(playlist[0]);
     }
 
@@ -76,6 +91,7 @@ export default function MusicPlayer() {
         height='0'
         playing={playing}
         volume={volume}
+        onProgress
       />
 
       <div className='music-player'>
@@ -83,7 +99,7 @@ export default function MusicPlayer() {
 
         <div className='music-controls'>
 
-          <IoPlayBack className='playback-button' />
+          <IoPlayBack onClick={playback} className='playback-button' />
           {playing ?
             <IoPause className='pause-button' onClick={() => setPlaying(false)} />
             : <IoPlay onClick={() => setPlaying(true)} className='play-button' />}
