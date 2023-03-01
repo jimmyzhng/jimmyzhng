@@ -1,5 +1,6 @@
 .info-box {
   color: #ebe8e2;
+  width: 100%;
   padding: 25px;
 }
 
@@ -20,10 +21,13 @@
 }
 
 .project-link {
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 @media screen and (max-width: 390px) {
+  .info-box {
+    padding: 15px;
+  }
   h2 {
     font-size: 30px !important;
 
@@ -37,7 +41,7 @@
 
   .project-description,
   .project-stack {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .project-title {

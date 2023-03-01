@@ -75,3 +75,12 @@ textarea {
     cursor: pointer;
   }
 }
+
+a.linkedin-link {
+  color: #ffe77a;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}

@@ -39,7 +39,8 @@ export default function Contact() {
         </h1>
 
         <p>
-          I am always happy to connect! Feel free to contact me with the form below, or shoot me a message on LinkedIn.
+          I am always happy to connect! Feel free to contact me with the form below, or shoot me a message on
+          <a className="linkedin-link" href="https://www.linkedin.com/in/jimmyzhng/" > LinkedIn</a>. Always happy to connect :^&#41;
         </p>
 
 
