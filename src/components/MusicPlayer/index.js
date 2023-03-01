@@ -2,54 +2,7 @@ import { useRef, useState } from 'react';
 import { IoPlayBack, IoPlay, IoPlayForward, IoPause, IoCloseCircle, IoMusicalNotes } from 'react-icons/io5';
 import ReactPlayer from 'react-player';
 import './index.scss';
-import ProgressBar from 'react-bootstrap/ProgressBar';
-
-const playlist = [
-  {
-    name: 'Seven Lions @ Lake Kachess',
-    url: 'https://www.youtube.com/watch?v=D7CaablOAY8&t=1101s&ab_channel=SEVENLIONSofficial'
-  },
-  {
-    name: 'Gryffin @ Kauai, Hawaii',
-    url: 'https://www.youtube.com/watch?v=0fStWP79Z5A&ab_channel=GRYFFIN'
-  },
-  {
-    name: 'John Summit @ Zamna Tulum',
-    url: 'https://www.youtube.com/watch?v=wwqqWzlrL6M&t=3184s&ab_channel=JohnSummit'
-  },
-  {
-    name: 'Ben Bohmer @ Cappadocia, Turkey',
-    url: 'https://www.youtube.com/watch?v=RvRhUHTV_8k&ab_channel=Cercle'
-  },
-  {
-    name: 'Anjunadeep 11 - Continuous Mix',
-    url: 'https://www.youtube.com/watch?v=-9BM6jGxW5Y&ab_channel=Anjunadeep'
-  },
-  {
-    name: 'Anjunadeep 13 - Continuous Mix',
-    url: 'https://www.youtube.com/watch?v=QM7L27N8-rE&ab_channel=Anjunadeep'
-  },
-  {
-    name: 'Sub Focus & Wilkinson @ Corfe Castle',
-    url: 'https://www.youtube.com/watch?v=TRh-amAhOEw&ab_channel=Mixmag'
-  },
-  {
-    name: 'Delta Heavy @ Rampage 2022',
-    url: 'https://www.youtube.com/watch?v=ghOdbnsFwFQ&t=90s&ab_channel=WeAreRampageEvents'
-  },
-  {
-    name: 'Jason Ross @ EDC LV 2022',
-    url: 'https://www.youtube.com/watch?v=FokLg160lN8&t=37s&ab_channel=JasonRoss'
-  },
-  {
-    name: 'Fred again.. @ Boiler Room',
-    url: 'https://www.youtube.com/watch?v=c0-hvjV2A5Y&ab_channel=BoilerRoom'
-  },
-  {
-    name: 'SpongeBob Relaxing Music',
-    url: 'https://www.youtube.com/watch?v=XWsptjpzBW0&t=2320s&ab_channel=giamoforti'
-  },
-];
+import playlist from '../../data/playlist';
 
 export default function MusicPlayer() {
   const [musicPlayerOpen, setMusicPlayerOpen] = useState(true);
@@ -58,6 +11,10 @@ export default function MusicPlayer() {
   const [currentMusic, setCurrentMusic] = useState(playlist[0]);
   const [played, setPlayed] = useState(0);
   const playerRef = useRef(null);
+
+  if (played === 1) {
+    return playForward();
+  }
 
   // console.log('Current Music', currentMusic);
 
@@ -74,7 +31,7 @@ export default function MusicPlayer() {
       return playerRef.current.seekTo(0);
     }
 
-    // If there is no earlier track, 
+    // If there is no earlier track,  do not do anything
     if (!playlist[findIndexByName(currentMusic) - 1]) {
       return null;
     }
@@ -115,7 +72,9 @@ export default function MusicPlayer() {
             <IoCloseCircle onClick={() => setMusicPlayerOpen(false)} className="music-player-close" />
             <a className='music-title' href={currentMusic.url} target='_blank'>{currentMusic.name}</a>
 
-            <ProgressBar now={played} min="0" max="1" className="progress-bar" visuallyHidden />
+            <div className="progress-bar-div">
+              <progress value={played} max="1" className="progress-bar" />
+            </div>
 
             <div className='music-controls'>
 

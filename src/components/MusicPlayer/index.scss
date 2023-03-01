@@ -30,10 +30,17 @@
     }
   }
 
-  .progress-bar {
-    z-index: 2;
-    margin: 10px;
-    width: 100%;
+  .progress-bar-div {
+    display: flex;
+    justify-content: center;
+
+    progress {
+      accent-color: #ffe77a;
+      margin: 2.5px;
+      height: 5px;
+      width: 100%;
+      max-width: 195px;
+    }
   }
 
   .music-title {
@@ -67,6 +74,7 @@
 
   .slider {
     width: 85px;
+    accent-color: #ffe77a;
     color: #ffe77a !important;
   }
 }
