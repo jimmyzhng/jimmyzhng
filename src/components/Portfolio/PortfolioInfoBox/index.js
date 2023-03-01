@@ -1,30 +1,15 @@
 import './index.scss';
 import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
-import AnimatedLetters from '../../AnimatedLetters';
 
 export default function PortfolioInfoBox({ title, description, stack, url, demo }) {
-  const [letterClass, setLetterClass] = useState('text-animate');
-  // console.log(portfolioData);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      return setLetterClass('text-animate-hover');
-    }, 3000);
-
-    return () => {
-      clearTimeout(timer);
-    };
-  }, []);
 
   return (
     <div className="info-box">
       <div className="project-title">
-        <h2>
+        <h2 className="h2-title">
           {title}
         </h2>
       </div>
-
       <div className="project-description"> {description}</div>
       <div className="project-stack"> Built with {stack}</div>
 

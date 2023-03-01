@@ -37,8 +37,11 @@ export default function Home() {
             <AnimatedLetters letterClass={letterClass} strArray={jobArray} index={20} />
           </h1>
           <h2>Full-stack Web Developer | JavaScript Developer  </h2>
-          <Link to="/contact" className='flat-button'>CONTACT ME</Link>
-          <Link to="https://resume.creddle.io/resume/b0vfq90c1j7" target="_blank" className='flat-button'>RESUME</Link>
+          <div className='homepage-buttons'>
+            <Link to="/contact" className='flat-button'>CONTACT ME</Link>
+            <Link to="https://resume.creddle.io/resume/b0vfq90c1j7" target="_blank" className='flat-button'>RESUME</Link>
+          </div>
+
 
         </div>
         <Logo />

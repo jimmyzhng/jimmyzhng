@@ -22,3 +22,28 @@
 .project-link {
   opacity: 0.9;
 }
+
+@media screen and (max-width: 390px) {
+  h2 {
+    font-size: 30px !important;
+
+    &::before {
+      font-size: 12.87px !important;
+    }
+    &::after {
+      font-size: 12.87px !important;
+    }
+  }
+
+  .project-description,
+  .project-stack {
+    font-size: 15px;
+  }
+
+  .project-title {
+    padding-bottom: 0;
+  }
+  .project-description {
+    padding-top: 0;
+  }
+}

@@ -177,6 +177,15 @@
       }
     }
 
+    ul {
+      &.mobile-show {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+    }
+
     .dropdown {
       display: block;
       position: absolute;
@@ -199,6 +208,10 @@
         cursor: pointer;
         opacity: 0.5;
       }
+    }
+
+    .home-link {
+      margin-top: 8px;
     }
   }
 }

@@ -17,7 +17,7 @@ export default function Sidebar() {
       </Link>
 
       <nav className={showNav ? 'mobile-show' : ''}>
-        <NavLink onClick={() => setShowNav(false)} exact="true" activeclassname="active" to="/">
+        <NavLink onClick={() => setShowNav(false)} exact="true" activeclassname="active" className="home-link" to="/">
           <FaHome color="#4d4d4e" />
         </NavLink>
 
@@ -36,7 +36,7 @@ export default function Sidebar() {
         <FaWindowClose onClick={() => setShowNav(false)} className="close-icon" color="#ffe77a" size="35" />
       </nav>
 
-      <ul>
+      <ul className={showNav ? 'mobile-show' : ''}>
         <li>
           <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/jimmyzhng/'>
             <FaLinkedin color="4d4d4e" />

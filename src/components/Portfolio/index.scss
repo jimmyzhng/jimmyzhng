@@ -41,3 +41,37 @@
   border-radius: 15px;
   margin-left: 25px;
 }
+
+@media screen and (max-width: 1200px) {
+  .container.portfolio-page {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+
+    h1.page-title {
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    .project-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+    }
+
+    .portfolio-video,
+    .portfolio-info {
+      width: calc(100% - 10px);
+    }
+
+    .portfolio-info {
+      margin-top: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0;
+    }
+  }
+}

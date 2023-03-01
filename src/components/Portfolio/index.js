@@ -21,7 +21,7 @@ export default function Portfolio() {
 
   const renderPortfolio = (portfolio) => {
     return (
-      <div className="images-container">
+      <div className="portfolio-container">
         {
           portfolio.map((project, index) => {
             return (
@@ -30,8 +30,9 @@ export default function Portfolio() {
                   <source src={project.video} type="video/mp4" />
                 </video>
 
-                <div className="portfolio-info fade-in">
+                <div className="portfolio-info">
                   <PortfolioInfoBox
+                    className="portfolio-infobox"
                     title={project.title}
                     description={project.description}
                     stack={project.stack}

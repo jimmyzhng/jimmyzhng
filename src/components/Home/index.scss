@@ -91,3 +91,63 @@
     opacity: 0.75;
   }
 }
+@media screen and (max-width: 1200px) {
+  .home-page {
+    .text-zone {
+      h1 {
+        &::after {
+          display: none;
+        }
+
+        &::before {
+          display: none;
+        }
+      }
+
+      position: initial;
+      width: 100%;
+      transform: none;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    .logo-container {
+      position: relative;
+      width: 300px;
+      height: auto;
+      top: 50px;
+      right: 0;
+      box-sizing: border-box;
+      margin: auto;
+      left: 0;
+
+      svg {
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: 0;
+        margin: auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .home-page {
+    .text-zone {
+      h1 {
+        font-size: 45px;
+      }
+    }
+
+    .logo-container {
+      width: 250px;
+    }
+
+    .homepage-buttons {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

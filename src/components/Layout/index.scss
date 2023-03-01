@@ -153,6 +153,10 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .tags {
+    display: none;
+  }
+
   .page {
     position: initial;
   }
@@ -160,5 +164,18 @@
   .container {
     position: initial;
     min-height: auto;
+
+    &.about-page,
+    &.contact-page,
+    &.portfolio-page {
+      .text-zone {
+        position: initial;
+        transform: none;
+        width: 100%;
+        display: block;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+    }
   }
 }
