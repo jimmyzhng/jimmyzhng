@@ -27,12 +27,21 @@ export default function About() {
               index={15} />
           </h1>
 
-          <p> I am a recent graduate of Lighthouse Labs, looking for employment opportunities
+          <p>Hey, I'm Jimmy, a full-stack web developer based in Vancouver, BC. Thanks for checking out my website, and I hope you like it :^&#41;</p>
+
+          <p>
+            I am a recent graduate of Lighthouse Labs, currently looking for employment opportunities as a developer.
+            I currently specialize in JavaScript and Ruby, but I am always looking to learn new languages and technologies through working on new projects.
           </p>
 
-          <p> I specialize in JavaScript and Ruby, but am always learning new frameworks.</p>
+          <p> I have always been passionate about tech, and I really enjoy solving complex problems.
+            After completing my Economics degree at UBC in 2022,
+            I found Lighthouse Labs, which gave me the perfect opportunity to pursue this interest of mine. Now, here I am!  </p>
 
-          <p> I like men</p>
+          <p> When I am not programming, you will probably find me skateboarding, or playing Valorant with some friends. </p>
+
+
+
         </div>
 
         <div className='stage-cube-cont'>
