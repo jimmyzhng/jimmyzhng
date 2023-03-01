@@ -8,7 +8,7 @@
   margin: 12.5px;
   font-size: 18px;
   color: #ebe8e2;
-  height: 60px;
+  height: 75px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,12 +34,11 @@
     display: flex;
     justify-content: center;
 
-    progress {
-      accent-color: #ffe77a;
-      margin: 2.5px;
+    .progress-bar {
+      margin: 10px;
       height: 5px;
       width: 100%;
-      max-width: 195px;
+      width: 195px;
     }
   }
 
@@ -56,6 +55,7 @@
   .music-controls {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
   .play-button,
   .playback-button,
@@ -73,9 +73,33 @@
   }
 
   .slider {
+    -webkit-appearance: none;
     width: 85px;
-    accent-color: #ffe77a;
-    color: #ffe77a !important;
+    height: 10px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.95;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+  }
+
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ffe77a;
+    cursor: pointer;
+  }
+
+  .slider::-moz-range-thumb {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ffe77a;
+    cursor: pointer;
   }
 }
 

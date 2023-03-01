@@ -4,7 +4,7 @@ const playlist = [
     url: 'https://www.youtube.com/watch?v=D7CaablOAY8&t=1101s&ab_channel=SEVENLIONSofficial'
   },
   {
-    name: 'Gryffin @ Kauai, Hawaii',
+    name: 'Gryffin (DJ Set) @ Kauai, Hawaii',
     url: 'https://www.youtube.com/watch?v=0fStWP79Z5A&ab_channel=GRYFFIN'
   },
   {

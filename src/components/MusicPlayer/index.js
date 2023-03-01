@@ -1,8 +1,9 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { IoPlayBack, IoPlay, IoPlayForward, IoPause, IoCloseCircle, IoMusicalNotes } from 'react-icons/io5';
 import ReactPlayer from 'react-player';
 import './index.scss';
 import playlist from '../../data/playlist';
+import ProgressBar from "@ramonak/react-progress-bar";
 
 export default function MusicPlayer() {
   const [musicPlayerOpen, setMusicPlayerOpen] = useState(true);
@@ -12,6 +13,16 @@ export default function MusicPlayer() {
   const [played, setPlayed] = useState(0);
   const playerRef = useRef(null);
 
+  // useEffect(() => {
+  //   console.log('UseEffect here');
+  //   console.log('currentMusic', currentMusic);
+  //   console.log('PlayerRef Current', playerRef.current);
+
+  //   if (played > 0) {
+  //     return playerRef.current.seekTo(0);
+  //   }
+  // }, [currentMusic]);
+
   if (played === 1) {
     return playForward();
   }
@@ -20,14 +31,14 @@ export default function MusicPlayer() {
 
   const findIndexByName = (song) => {
     if (playlist) {
-      console.log('Finding current index by name: ', playlist.findIndex(playlistTrack => playlistTrack.name === song.name));
+      // console.log('Finding current index by name: ', playlist.findIndex(playlistTrack => playlistTrack.name === song.name));
       return playlist.findIndex(playlistTrack => playlistTrack.name === song.name);
     };
   };
 
   const playback = () => {
     // If we aren't at 0 seconds, go to beginning of the track
-    if (played !== 0) {
+    if (played > 0.01) {
       return playerRef.current.seekTo(0);
     }
 
@@ -62,19 +73,30 @@ export default function MusicPlayer() {
         height='0'
         playing={playing}
         volume={volume}
+        onEnded={() => playForward()}
         onProgress={handleProgress}
       />
 
       <div className={musicPlayerOpen ? 'music-player' : 'minimized'}>
 
         {musicPlayerOpen ? (
-          <div>
+          <div className="settings">
             <IoCloseCircle onClick={() => setMusicPlayerOpen(false)} className="music-player-close" />
             <a className='music-title' href={currentMusic.url} target='_blank'>{currentMusic.name}</a>
 
             <div className="progress-bar-div">
-              <progress value={played} max="1" className="progress-bar" />
+              <ProgressBar
+                completed={played}
+                maxCompleted={1}
+                className="progress-bar"
+                bgColor="#ffe77a"
+                baseBgColor='#ebe8e2'
+                height="3.5px"
+                isLabelVisible={false}
+              />
             </div>
+
+
 
             <div className='music-controls'>
 
