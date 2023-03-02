@@ -9,10 +9,7 @@ export default function Portfolio() {
   const [letterClass, setLetterClass] = useState('text-animate');
   // console.log(portfolioData);
 
-  const videoRef = useRef(undefined);
-
   useEffect(() => {
-    videoRef.current.defaultMuted = true;
 
     const timer = setTimeout(() => {
       return setLetterClass('text-animate-hover');
@@ -30,9 +27,17 @@ export default function Portfolio() {
           portfolio.map((project, index) => {
             return (
               <div className={`project-container project-${index + 1}`} key={index}>
-                <video ref={videoRef} className="portfolio-video" alt="portfolio" autoPlay controls muted playsInline loop>
+
+                <div dangerouslySetInnerHTML={{
+                  __html:
+                    <video className="portfolio-video" alt="portfolio" autoPlay controls muted playsInline loop>
+                      <source src={project.video} type="video/mp4" />
+                    </video>
+                }} />
+
+                {/* <video className="portfolio-video" alt="portfolio" autoPlay controls muted playsInline loop>
                   <source src={project.video} type="video/mp4" />
-                </video>
+                </video> */}
 
                 <div className="portfolio-info">
                   <PortfolioInfoBox
