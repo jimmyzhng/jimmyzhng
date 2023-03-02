@@ -76,8 +76,8 @@ export default function MusicPlayer() {
         ref={playerRef}
         className='react-player'
         url={currentMusic.url}
-        width='500'
-        height='500'
+        width='0'
+        height='0'
         playing={playing}
         volume={volume}
         onEnded={() => playForward()}
