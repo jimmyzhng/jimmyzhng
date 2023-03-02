@@ -79,6 +79,7 @@ export default function MusicPlayer() {
         onEnded={() => playForward()}
         onProgress={handleProgress}
         onPlay={handlePlay}
+        playsInline
       />
 
       <div className={musicPlayerOpen ? 'music-player' : 'minimized'}>
@@ -97,6 +98,7 @@ export default function MusicPlayer() {
                 baseBgColor='#ebe8e2'
                 height="3.5px"
                 isLabelVisible={false}
+
               />
             </div>
 
