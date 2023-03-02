@@ -2,6 +2,7 @@
   "portfolio": [
     {
       "video": "/portfolio/pawhub/pawhub-full-demo.webm",
+      "gifDemo": "/portfolio/pawhub/pawhub-gif-demo.gif",
       "title": "Pawhub",
       "description": "An application for pet owners to use as a central resource for making new friends, and to discuss everything pet related. ",
       "stack": "React, Ruby on Rails, Node.js, Axios, PostgreSQL, Bootstrap, and more!",
@@ -10,6 +11,7 @@
     },
     {
       "video": "/portfolio/scheduler/scheduler-demo.webm",
+      "gifDemo": "/portfolio/-gif-demo.gif",
       "title": "Interview Scheduler",
       "description": "An application for students to create, edit and delete interview appointments with mentors.",
       "stack": "React, Node.js, Express, PostgreSQL, Storybook, SASS, Jest, Webpack, Cypress, and more!",
@@ -17,31 +19,34 @@
         "https://github.com/jimmyzhng/interview-scheduler",
         "https://github.com/jimmyzhng/scheduler-api"
       ],
-      "demo": "https://www.youtube.com/watch?v=NNr0oO0vAnM&ab_channel=JimmyZhang"
+      "demo": "https://youtu.be/5tl1aZ745_w"
     },
     {
       "video": "/portfolio/deadstock/deadStock-demo.webm",
+      "gifDemo": "/portfolio/-gif-demo.gif",
       "title": "dead.Stock",
       "description": "A buy/sell application for users to browse and list sneakers for sale. ",
       "stack": "JavaScript, Node.js, Express, jQuery, PostgreSQL, SASS, and more!",
       "url": ["https://github.com/jimmyzhng/deadstock"],
-      "demo": "https://www.youtube.com/watch?v=NNr0oO0vAnM&ab_channel=JimmyZhang"
+      "demo": "https://youtu.be/0tSx5muj6yM"
     },
     {
       "video": "/portfolio/tweeter/tweeter-demo.webm",
+      "gifDemo": "/portfolio/-gif-demo.gif",
       "title": "Tweeter",
       "description": "A Twitter clone. Post and see them update in real-time.",
       "stack": "JavaScript, Node.js, Express, jQuery, AJAX, HTML, CSS, and more!",
       "url": ["https://github.com/jimmyzhng/tweeter"],
-      "demo": "https://www.youtube.com/watch?v=NNr0oO0vAnM&ab_channel=JimmyZhang"
+      "demo": "https://youtu.be/1cmL2R29nFg"
     },
     {
       "video": "/portfolio/tinyapp/tinyapp-demo.webm",
+      "gifDemo": "/portfolio/-gif-demo.gif",
       "title": "Tinyapp",
       "description": "A TinyURL clone - create, edit, or delete shortened URLs that anybody can use.",
       "stack": "JavaScript, Node.js, Express, EJS, Mocha/Chai, and more!",
       "url": ["https://github.com/jimmyzhng/tinyapp"],
-      "demo": "https://www.youtube.com/watch?v=NNr0oO0vAnM&ab_channel=JimmyZhang"
+      "demo": "https://youtu.be/IK1bjgprHY8"
     }
   ]
 }

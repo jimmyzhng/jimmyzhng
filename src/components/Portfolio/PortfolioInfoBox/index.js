@@ -15,6 +15,7 @@ export default function PortfolioInfoBox({ title, description, stack, url, demo 
 
       <div>
         <Link to={url[0]} target="_blank" className='flat-button project-link'>View Code</Link>
+        <Link to={demo} target="_blank" className='flat-button project-link'>View Demo</Link>
       </div>
     </div>);
 }

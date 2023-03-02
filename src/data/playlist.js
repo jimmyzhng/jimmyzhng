@@ -8,19 +8,23 @@ const playlist = [
     url: 'https://youtu.be/0fStWP79Z5A&t=00s'
   },
   {
-    name: 'John Summit @ Zamna Tulum',
-    url: 'https://youtu.be/wwqqWzlrL6M&t=00s'
-  },
-  {
     name: 'Ben Bohmer @ Cappadocia, Turkey',
     url: 'https://www.youtube.com/watch?v=RvRhUHTV_8k&ab_channel=Cercle'
+  },
+  {
+    name: 'Lane 8 @ Grand Lake, CO',
+    url: 'https://www.youtube.com/watch?v=n_LcVqqHSY8&ab_channel=ThisNeverHappened'
+  },
+  {
+    name: 'John Summit @ Zamna Tulum',
+    url: 'https://youtu.be/wwqqWzlrL6M&t=00s'
   },
   {
     name: 'Anjunadeep 11 - Continuous Mix',
     url: 'https://www.youtube.com/watch?v=-9BM6jGxW5Y&ab_channel=Anjunadeep'
   },
   {
-    name: 'Anjunadeep 13 - Continuous Mix',
+    name: 'Anjunadeep 13 @ Lake Skadar',
     url: 'https://www.youtube.com/watch?v=QM7L27N8-rE&ab_channel=Anjunadeep'
   },
   {

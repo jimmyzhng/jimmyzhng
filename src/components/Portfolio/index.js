@@ -28,16 +28,13 @@ export default function Portfolio() {
             return (
               <div className={`project-container project-${index + 1}`} key={index}>
 
-                <div dangerouslySetInnerHTML={{
-                  __html:
-                    <video className="portfolio-video" autoplay controls muted playsinline loop>
-                      <source src={project.video} type="video/mp4" />
-                    </video>
-                }} />
+                {window.innerWidth <= 390 ?
+                  <img className="portfolio-video" src={project.gifDemo} />
+                  :
 
-                {/* <video className="portfolio-video" alt="portfolio" autoPlay controls muted playsInline loop>
-                  <source src={project.video} type="video/mp4" />
-                </video> */}
+                  <video className="portfolio-video" alt="portfolio" autoPlay controls muted playsInline loop>
+                    <source src={project.video} type="video/mp4" />
+                  </video>}
 
                 <div className="portfolio-info">
                   <PortfolioInfoBox
