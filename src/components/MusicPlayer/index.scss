@@ -128,3 +128,9 @@
     }
   }
 }
+
+@media screen and (max-width: 390px) {
+  .music-player-container {
+    display: none;
+  }
+}

@@ -26,7 +26,7 @@ export default function Portfolio() {
           portfolio.map((project, index) => {
             return (
               <div className={`project-container project-${index + 1}`} key={index}>
-                <video className="portfolio-video" alt="portfolio" autoPlay controls muted playsInLine loop>
+                <video className="portfolio-video" alt="portfolio" autoPlay controls muted playsInline loop>
                   <source src={project.video} type="video/mp4" />
                 </video>
 

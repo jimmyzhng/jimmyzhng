@@ -38,13 +38,12 @@
     &::after {
       font-size: 12.87px !important;
     }
-
-    .flat-button {
-      padding: 2.5px 0;
-      font-size: 15px;
-    }
   }
 
+  .flat-button {
+    font-size: 8px;
+    padding: 6px;
+  }
   .project-description,
   .project-stack {
     font-size: 12px;
@@ -57,16 +56,3 @@
     padding-top: 0;
   }
 }
-
-// @media screen and (max-width: 600px) {
-//   h2 {
-//     font-size: 28px !important;
-
-//     &::before {
-//       font-size: 12.87px !important;
-//     }
-//     &::after {
-//       font-size: 12.87px !important;
-//     }
-//   }
-// }
