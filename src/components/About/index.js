@@ -31,10 +31,10 @@ export default function About() {
 
           <p>
             I am a recent graduate of Lighthouse Labs, currently looking for employment opportunities as a developer.
-            I currently specialize in JavaScript and Ruby, but I am always looking to learn new languages and technologies through working on new projects.
+            I currently specialize in JavaScript and Ruby, but I am always looking to learn new languages and technologies by working on new projects.
           </p>
 
-          <p> I have always been passionate about tech, and I really enjoy solving complex problems.
+          <p> I have always been passionate about tech, and I enjoy solving complex problems.
             After completing my Economics degree at UBC in 2022,
             I found Lighthouse Labs, which gave me the perfect opportunity to pursue this interest of mine. Now, here I am!  </p>
 
