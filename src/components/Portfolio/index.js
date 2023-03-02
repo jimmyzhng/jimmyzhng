@@ -30,7 +30,7 @@ export default function Portfolio() {
 
                 <div dangerouslySetInnerHTML={{
                   __html:
-                    <video className="portfolio-video" alt="portfolio" autoPlay controls muted playsInline loop>
+                    <video className="portfolio-video" autoplay controls muted playsinline loop>
                       <source src={project.video} type="video/mp4" />
                     </video>
                 }} />
