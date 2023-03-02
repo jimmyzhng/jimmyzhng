@@ -8,7 +8,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 export default function MusicPlayer() {
   const [musicPlayerOpen, setMusicPlayerOpen] = useState(true);
   const [playing, setPlaying] = useState(false);
-  const [volume, setVolume] = useState(0.5);
+  const [volume, setVolume] = useState(0);
   const [currentMusic, setCurrentMusic] = useState(playlist[0]);
   const [played, setPlayed] = useState(0);
   const [isFirstTimePlaying, setIsFirstTimePlaying] = useState(true);
@@ -38,6 +38,8 @@ export default function MusicPlayer() {
       return null;
     }
 
+    setIsFirstTimePlaying(true);
+    setVolume(0);
     return setCurrentMusic(playlist[findIndexByName(currentMusic) - 1]);
   };
 
@@ -48,8 +50,10 @@ export default function MusicPlayer() {
     } else {
       setCurrentMusic(playlist[findIndexByName(currentMusic) + 1]);
     }
+
     setIsFirstTimePlaying(true);
     setVolume(0);
+
   };
 
   const handleProgress = (song) => {
@@ -57,16 +61,10 @@ export default function MusicPlayer() {
   };
 
   const handlePlay = () => {
-    console.log('handlePlay');
-    console.log('Current Song', currentMusic);
 
     if (isFirstTimePlaying) {
-
-      console.log('played before seekTo', played);
       playerRef.current.seekTo(0);
       setVolume(0.5);
-
-      console.log('played after seekTo', played);
       setIsFirstTimePlaying(false);
     }
 
@@ -78,8 +76,8 @@ export default function MusicPlayer() {
         ref={playerRef}
         className='react-player'
         url={currentMusic.url}
-        width='0'
-        height='0'
+        width='500'
+        height='500'
         playing={playing}
         volume={volume}
         onEnded={() => playForward()}
@@ -105,8 +103,6 @@ export default function MusicPlayer() {
                 isLabelVisible={false}
               />
             </div>
-
-
 
             <div className='music-controls'>
 
