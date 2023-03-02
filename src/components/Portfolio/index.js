@@ -1,6 +1,6 @@
 import './index.scss';
 import Loader from "react-loaders";
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import portfolioData from '../../data/portfolio.json';
 import PortfolioInfoBox from './PortfolioInfoBox';
@@ -9,7 +9,11 @@ export default function Portfolio() {
   const [letterClass, setLetterClass] = useState('text-animate');
   // console.log(portfolioData);
 
+  const videoRef = useRef(undefined);
+
   useEffect(() => {
+    videoRef.current.defaultMuted = true;
+
     const timer = setTimeout(() => {
       return setLetterClass('text-animate-hover');
     }, 3000);
@@ -26,7 +30,7 @@ export default function Portfolio() {
           portfolio.map((project, index) => {
             return (
               <div className={`project-container project-${index + 1}`} key={index}>
-                <video className="portfolio-video" alt="portfolio" autoPlay controls muted playsInline loop>
+                <video ref={videoRef} className="portfolio-video" alt="portfolio" autoPlay controls muted playsInline loop>
                   <source src={project.video} type="video/mp4" />
                 </video>
 

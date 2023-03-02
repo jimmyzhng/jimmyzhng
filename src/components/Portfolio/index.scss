@@ -43,9 +43,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-}
-
-@media screen and (max-width: 1200px) {
   .container.portfolio-page {
     width: 100%;
     padding: 20px;
@@ -76,5 +73,12 @@
       align-items: center;
       margin-left: 0;
     }
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .portfolio-video,
+  .portfolio-info {
+    width: calc(100% - 10px);
   }
 }

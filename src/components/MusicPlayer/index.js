@@ -115,7 +115,7 @@ export default function MusicPlayer() {
                 type="range" min="0" max="1"
                 step="any" value={volume}
                 onChange={e => setVolume(parseFloat(e.target.value))}
-                class="slider" id="myRange" />
+                className="slider" id="myRange" />
 
             </div>
           </div>
