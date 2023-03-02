@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { IoPlayBack, IoPlay, IoPlayForward, IoPause, IoCloseCircle, IoMusicalNotes } from 'react-icons/io5';
 import ReactPlayer from 'react-player';
 import './index.scss';
@@ -13,10 +13,6 @@ export default function MusicPlayer() {
   const [played, setPlayed] = useState(0);
   const [isFirstTimePlaying, setIsFirstTimePlaying] = useState(true);
   const playerRef = useRef(null);
-
-  if (played === 1) {
-    return playForward();
-  }
 
   // console.log('Current Music', currentMusic);
 
@@ -90,7 +86,7 @@ export default function MusicPlayer() {
         {musicPlayerOpen ? (
           <div className="settings">
             <IoCloseCircle onClick={() => setMusicPlayerOpen(false)} className="music-player-close" />
-            <a className='music-title' href={currentMusic.url} target='_blank'>{currentMusic.name}</a>
+            <a className='music-title' href={currentMusic.url} target='_blank' rel="noreferrer">{currentMusic.name}</a>
 
             <div className="progress-bar-div">
               <ProgressBar
