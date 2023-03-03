@@ -43,6 +43,7 @@ export default function Portfolio() {
                     description={project.description}
                     stack={project.stack}
                     url={project.url}
+                    demo={project.demo}
                   />
                 </div>
               </div>
