@@ -91,6 +91,7 @@
     opacity: 0.75;
   }
 }
+
 @media screen and (max-width: 1200px) {
   .home-page {
     .text-zone {
@@ -107,13 +108,13 @@
       position: initial;
       width: 100%;
       transform: none;
-      padding: 10px;
+      padding-left: 10px;
       box-sizing: border-box;
     }
 
     .logo-container {
       position: relative;
-      width: 300px;
+      width: 350px;
       height: auto;
       top: 30px;
       right: 0;
@@ -135,13 +136,18 @@
 
 @media screen and (max-width: 480px) {
   .logo-container {
-    top: 15px !important;
+    top: 25px !important;
     margin-left: 20px !important;
+    width: 250px !important;
   }
 }
 
 @media screen and (max-width: 390px) {
   .home-page {
+    .logo-container {
+      top: 0px !important;
+    }
+
     .text-zone {
       h1 {
         font-size: 45px;
