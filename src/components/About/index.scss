@@ -88,9 +88,9 @@ p {
   }
 
   .stage-cube-cont {
-    position: initial;
+    position: relative;
     width: 100%;
-    height: 0%;
+    height: 400px;
     overflow: visible;
   }
 }

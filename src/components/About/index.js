@@ -32,6 +32,8 @@ export default function About() {
           <p>
             I am a recent graduate of Lighthouse Labs, and am eagerly looking for employment opportunities as a developer.
             I currently specialize in JavaScript and Ruby, but I am always looking to master new languages and technologies by working on new projects.
+            Full list of my skills can be found on my <a className="page-link" href="https://resume.creddle.io/resume/b0vfq90c1j7" >resume</a>,
+            or you can check out my Github to see what I'm currently working on!
           </p>
 
           <p> I have always been deeply passionate about tech, and through my academic experiences, I found that I love it
