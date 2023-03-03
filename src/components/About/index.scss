@@ -90,24 +90,16 @@ p {
   .stage-cube-cont {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 350px;
     overflow: visible;
   }
 }
 
 @media screen and (max-width: 480px) {
+  p {
+    font-size: 12px;
+  }
   text-zone {
     width: 50%;
-  }
-
-  p {
-    font-size: 11px;
-  }
-  .stage-cube-cont {
-    position: initial;
-    width: 100%;
-    height: auto;
-    overflow: visible;
-    padding-bottom: 55px;
   }
 }

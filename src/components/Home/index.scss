@@ -115,7 +115,7 @@
       position: relative;
       width: 300px;
       height: auto;
-      top: 50px;
+      top: 30px;
       right: 0;
       box-sizing: border-box;
       margin: auto;
@@ -135,7 +135,8 @@
 
 @media screen and (max-width: 480px) {
   .logo-container {
-    margin-left: 10px;
+    top: 15px !important;
+    margin-left: 20px !important;
   }
 }
 
@@ -149,11 +150,6 @@
       .main-page-h2 {
         font-size: 12px !important;
       }
-    }
-
-    .logo-container {
-      width: 250px;
-      margin-left: 25px;
     }
 
     .homepage-buttons {
