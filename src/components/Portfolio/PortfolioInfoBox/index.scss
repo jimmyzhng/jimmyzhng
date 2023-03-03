@@ -25,7 +25,73 @@
   margin-left: 5px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 1200px) and (max-width: 1520px) {
+  .info-box {
+    padding: 15px;
+  }
+
+  .h2-title {
+    font-size: 28px !important;
+
+    &::before {
+      font-size: 12.87px !important;
+    }
+    &::after {
+      font-size: 12.87px !important;
+    }
+  }
+
+  .flat-button {
+    font-size: 8px;
+    padding: 6px;
+  }
+  .project-description,
+  .project-stack {
+    font-size: 12px;
+  }
+
+  .project-title {
+    padding-bottom: 0;
+  }
+  .project-description {
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1520px) {
+  .info-box {
+    padding: 15px;
+  }
+
+  .h2-title {
+    font-size: 28px !important;
+
+    &::before {
+      font-size: 12.87px !important;
+    }
+    &::after {
+      font-size: 12.87px !important;
+    }
+  }
+
+  .flat-button {
+    font-size: 8px;
+    padding: 6px;
+  }
+  .project-description,
+  .project-stack {
+    font-size: 12px;
+  }
+
+  .project-title {
+    padding-bottom: 0;
+  }
+  .project-description {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .info-box {
     padding: 15px;
   }
