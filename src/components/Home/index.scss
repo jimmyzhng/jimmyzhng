@@ -133,6 +133,12 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+  .logo-container {
+    margin-left: 10px;
+  }
+}
+
 @media screen and (max-width: 390px) {
   .home-page {
     .text-zone {
@@ -147,6 +153,7 @@
 
     .logo-container {
       width: 250px;
+      margin-left: 25px;
     }
 
     .homepage-buttons {

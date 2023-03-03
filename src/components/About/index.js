@@ -20,25 +20,26 @@ export default function About() {
     <>
       <div className='container about-page'>
         <div className='text-zone'>
-          <h1>
+          <h1 className="about-me-header">
             <AnimatedLetters
               letterClass={letterClass}
               strArray={`About me`.split('')}
               index={15} />
           </h1>
 
-          <p>Hey, I'm Jimmy, a full-stack web developer based in Vancouver, BC. Thanks for checking out my website, and I hope you like it :^&#41;</p>
+          <p> Hey, I'm Jimmy, a full-stack web developer based in Vancouver, BC. Thanks for checking out my website, and I hope you like it :^&#41;</p>
 
           <p>
-            I am a recent graduate of Lighthouse Labs, currently looking for employment opportunities as a developer.
-            I currently specialize in JavaScript and Ruby, but I am always looking to learn new languages and technologies by working on new projects.
+            I am a recent graduate of Lighthouse Labs, and am eagerly looking for employment opportunities as a developer.
+            I currently specialize in JavaScript and Ruby, but I am always looking to master new languages and technologies by working on new projects.
           </p>
 
-          <p> I have always been passionate about tech, and I enjoy solving complex problems.
-            After completing my Economics degree at UBC in 2022,
-            I found Lighthouse Labs, which gave me the perfect opportunity to pursue this interest of mine. Now, here I am!  </p>
+          <p> I have always been deeply passionate about tech, and through my academic experiences, I found that I love it
+            when I can use my skills and abilities to solve complex problems.
+            After earning my Economics degree at UBC in 2022, I knew I had to make the transition into the tech world,
+            and that is where I found Lighthouse Labs. Now, here I am!  </p>
 
-          <p> When I am not programming, you will probably find me skateboarding, or playing Valorant with some friends. </p>
+          <p> When I am not busy working on websites like this one, you can probably find me skateboarding, or playing Valorant with some friends. </p>
 
 
 

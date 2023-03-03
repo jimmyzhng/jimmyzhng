@@ -44,7 +44,9 @@ export default function Home() {
 
 
         </div>
-        <Logo />
+
+        <div className="logo-container"><Logo /></div>
+
       </div>
       <Loader type='pacman' />
 

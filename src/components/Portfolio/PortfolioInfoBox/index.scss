@@ -25,12 +25,12 @@
   margin-left: 5px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 480px) {
   .info-box {
     padding: 15px;
   }
 
-  h2 {
+  .h2-title {
     font-size: 28px !important;
 
     &::before {
