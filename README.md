@@ -10,7 +10,7 @@
 
 - 🎓 Graduated in 2022 at UBC with an Economics degree (with a minor in Commerce)
 
-- 📈 Learning TypeScript and Next.js building a Tiktok clone (check that out [here](https://github.com/jimmyzhng/tiktok-clone))
+- 📈 Learning TypeScript and Next.js building a Tiktok clone (find that [here](https://github.com/jimmyzhng/tiktok-clone))
 
 Check out my portfolio [website](https://www.jimmyzhng.com) :^)
 
