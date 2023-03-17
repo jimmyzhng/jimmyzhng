@@ -2,7 +2,7 @@
   "portfolio": [
     {
       "video": "/portfolio/binit/binit-demo.webm",
-      "gifDemo": "/portfolio/binit/binit-gif-demo",
+      "gifDemo": "/portfolio/binit/binit-gif-demo.gif",
       "title": "BinIt!",
       "description": "An application that uses AI to sort trash based on images uploaded by the user, with the ability to differentiate between waste, recycling, compost, and paper. Created in 8 hours during Root Hacks 2023, and winner of \"WiCS Award - best project with at least one women-identifying or non-binary student on their team\"",
       "stack": "React, Node.js, and Python (Flask)",

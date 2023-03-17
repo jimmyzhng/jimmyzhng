@@ -28,7 +28,7 @@ export default function Portfolio() {
             return (
               <div className={`project-container project-${index + 1}`} key={index}>
 
-                {window.innerWidth <= 390 ?
+                {window.innerWidth <= 480 ?
                   <img className="portfolio-video" src={project.gifDemo} />
                   :
 
