@@ -12,7 +12,7 @@
 
 - 📈 Learning TypeScript and Next.js building a Tiktok clone (find that [here](https://github.com/jimmyzhng/tiktok-clone))
 
-Check out my portfolio [website](https://www.jimmyzhng.com) :^)
+Check out my portfolio [website](https://www.jimmyzhng.com)! :^)
 
 <a href="https://www.linkedin.com/in/jimmyzhng/">
 <img align="left" src="https://cdn-icons-png.flaticon.com/512/145/145807.png" width="35px"/>
