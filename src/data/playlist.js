@@ -8,6 +8,10 @@ const playlist = [
     url: 'https://youtu.be/0fStWP79Z5A&t=00s'
   },
   {
+    name: 'Anjunadeep 14 @ Qarraba Bay',
+    url: 'https://youtu.be/gaI7fdfyBHQ'
+  },
+  {
     name: 'Ben Bohmer @ Cappadocia, Turkey',
     url: 'https://www.youtube.com/watch?v=RvRhUHTV_8k&ab_channel=Cercle'
   },
