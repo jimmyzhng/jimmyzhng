@@ -4,7 +4,7 @@
       "video": "/portfolio/aispy/aispy-demo.mp4",
       "gifDemo": "/portfolio/aispy/aispy-gif-demo.gif",
       "title": "AiSpy",
-      "description": "An application built to manage a simulated network of surveillance cameras for a building. Along with the surveillance camera footage, this application provides real-time analytics of the footage, including an alert for when motion or sound is detected, and a chart that visualizes the detections of different people ",
+      "description": "An application built to manage a simulated network of surveillance cameras for a building. Along with object detection in the surveillance camera footage, this application provides real-time analytics of the footage, including an alert for when motion or sound is detected, and a chart that visualizes the detections of different people ",
       "stack": "React, Express.js, PostgreSQL, TensorFlow.js, AWS S3, Jest, Web Audio API, Apex Charts, and more!",
       "url": ["https://github.com/jimmyzhng/aispy"],
       "demo": "https://youtu.be/6JrWUBSv5b0"
