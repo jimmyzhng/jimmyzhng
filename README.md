@@ -6,9 +6,9 @@
 
 - 💻 Currently looking for employment opportunities as a developer!
 
-- 👨‍💻 Web development graduate at Lighthouse Labs (February 2023)
+- 👨‍💻 Web development graduate at Lighthouse Labs
 
-- 🎓 Graduated in 2022 at UBC with an Economics degree (with a minor in Commerce)
+- 🎓 Graduated at UBC with an Economics degree (with a minor in Commerce)
 
 <!-- - 📈 Learning TypeScript and Next.js building a Tiktok clone (find that [here](https://github.com/jimmyzhng/tiktok-clone)) -->
 
