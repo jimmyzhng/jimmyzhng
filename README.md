@@ -4,7 +4,7 @@
 
 **About me**
 
-- 💻 Jr. Full Stack AI Web Developer @ Originality.AI
+- 💻 Jr. Full Stack AI Web Developer @ Originality.AI (Aug 2023)
 
 - 👨‍💻 Web development graduate at Lighthouse Labs
 
