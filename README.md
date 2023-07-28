@@ -10,7 +10,7 @@
 
 - 🎓 Graduated at UBC with an Economics degree (with a minor in Commerce)
 
--📖 Currently reading The Pragmatic Programmer, by Andrew Hunt & David Thomas
+- 📖 Currently reading The Pragmatic Programmer, by Andrew Hunt & David Thomas
 
 <!-- - 📈 Learning TypeScript and Next.js building a Tiktok clone (find that [here](https://github.com/jimmyzhng/tiktok-clone)) -->
 
