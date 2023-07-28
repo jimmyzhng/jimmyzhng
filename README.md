@@ -4,7 +4,7 @@
 
 **About me**
 
-- 💻 Currently looking for employment opportunities as a developer!
+- 💻 Jr. Full Stack AI Web Developer @ Originality.AI
 
 - 👨‍💻 Web development graduate at Lighthouse Labs
 
