@@ -30,7 +30,7 @@ export default function About() {
           <p> Hey, I'm Jimmy, a full-stack web developer based in Vancouver, BC. Thanks for checking out my website, and I hope you've liked it so far :^&#41;</p>
 
           <p>
-            I am currently working as a Jr. Full Stack AI Web Developer at <a className="page-link" href="https://originality.ai/" >Originality.AI</a>. Also, I am helping out as a Web Developer at Google Developer Group in Vancouver.
+            I am currently working as a Jr. Full Stack AI Web Developer at <a className="page-link" href="https://originality.ai/" >Originality.AI</a>. Also, I am helping out as a Web Developer for Google Developer Group in Vancouver.
             I love working with JavaScript, but I am always looking to master new languages and technologies by working on and creating new things.
             If you are curious, the full list of my skills and tech stack can be found on my <a className="page-link" href="https://resume.creddle.io/resume/b0vfq90c1j7" >resume</a>,
             or you can check out my Github to see what I'm currently working on.
