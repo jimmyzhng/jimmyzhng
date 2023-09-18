@@ -30,18 +30,15 @@ export default function About() {
           <p> Hey, I'm Jimmy, a full-stack web developer based in Vancouver, BC. Thanks for checking out my website, and I hope you like it :^&#41;</p>
 
           <p>
-            I am a recent graduate of Lighthouse Labs, and am eagerly looking for employment opportunities as a developer.
-            I currently specialize in JavaScript and Ruby, but I am always looking to master new languages and technologies by working on new projects.
-            Full list of my skills can be found on my <a className="page-link" href="https://resume.creddle.io/resume/b0vfq90c1j7" >resume</a>,
-            or you can check out my Github to see what I'm currently working on!
+            I am currently working as a Jr. Full Stack AI Web Developer at <a className="page-link" href="https://originality.ai/" >Originality.AI</a>. Also, I am helping out as a Web Developer at Google Developer Group in Vancouver.
+            I love working with JavaScript, but I am always looking to master new languages and technologies by working on and creating new things.
+            If you are curious, the full list of my skills and tech stack can be found on my <a className="page-link" href="https://resume.creddle.io/resume/b0vfq90c1j7" >resume</a>,
+            or you can check out my Github to see what I'm currently working on.
           </p>
 
-          <p> I have always been deeply passionate about tech, and through my academic experiences, I found that I love it
-            when I can use my skills and abilities to solve complex problems.
-            After earning my Economics degree at UBC in 2022, I knew I had to make the transition into the tech world,
-            and that is where I found Lighthouse Labs. Now, here I am!  </p>
+          <p> When I am not busy working on websites like this one, you will probably find me on my skateboard, on my bike, or hiking with some friends. </p>
 
-          <p> When I am not busy working on websites like this one, you can probably find me skateboarding, or playing Valorant with some friends. </p>
+          <p> If you are reading this, I would love to connect. Feel free to reach out if you want to chat, or if you have any questions about my experiences. I don't really ever know if anyone actually reads these things. Anyways, thanks for stopping by!  </p>
 
 
 
