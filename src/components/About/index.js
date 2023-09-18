@@ -27,7 +27,7 @@ export default function About() {
               index={15} />
           </h1>
 
-          <p> Hey, I'm Jimmy, a full-stack web developer based in Vancouver, BC. Thanks for checking out my website, and I hope you like it :^&#41;</p>
+          <p> Hey, I'm Jimmy, a full-stack web developer based in Vancouver, BC. Thanks for checking out my website, and I hope you've liked it so far :^&#41;</p>
 
           <p>
             I am currently working as a Jr. Full Stack AI Web Developer at <a className="page-link" href="https://originality.ai/" >Originality.AI</a>. Also, I am helping out as a Web Developer at Google Developer Group in Vancouver.
@@ -36,7 +36,8 @@ export default function About() {
             or you can check out my Github to see what I'm currently working on.
           </p>
 
-          <p> When I am not busy working on websites like this one, you will probably find me on my skateboard, on my bike, or hiking with some friends. </p>
+          <p> When I am not busy working on websites like this one, you will probably find me on my skateboard, on my bike, or hiking with some friends.
+            Also a big fan of dnb (drum and bass) and melodic dubstep, so you'll catch me DJing every now and then.</p>
 
           <p> If you are reading this, I would love to connect. Feel free to reach out if you want to chat, or if you have any questions about my experiences. I don't really ever know if anyone actually reads these things. Anyways, thanks for stopping by!  </p>
 
