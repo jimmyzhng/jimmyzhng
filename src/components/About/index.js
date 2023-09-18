@@ -39,7 +39,7 @@ export default function About() {
           <p> When I am not busy working on websites like this one, you will probably find me on my skateboard, on my bike, or hiking with some friends.
             Also a big fan of dnb (drum and bass) and melodic dubstep, so you'll catch me DJing every now and then.</p>
 
-          <p> If you are reading this, I would love to connect. Feel free to reach out if you want to chat, or if you have any questions about my experiences. I don't really ever know if anyone actually reads these things. Anyways, thanks for stopping by!  </p>
+          <p> If you are reading this, I would love to connect. Feel free to reach out if you want to chat, or if you have any questions about my experiences. I don't really ever know if anyone actually reads these things, so I would love to know if you checked my page out. Anyways, thanks for stopping by!  </p>
 
 
 
