@@ -4,6 +4,14 @@ const playlist = [
     url: 'https://youtu.be/D7CaablOAY8&t=00s'
   },
   {
+    name: 'Mazare @ Cima Ekar Observatory',
+    url: 'https://www.youtube.com/watch?v=l3qPbDBmIxM&ab_channel=OpheliaRecords'
+  },
+  {
+    name: 'Sub Focus & Wilkinson @ Corfe Castle',
+    url: 'https://www.youtube.com/watch?v=TRh-amAhOEw&ab_channel=Mixmag'
+  },
+  {
     name: 'Gryffin (DJ Set) @ Kauai, Hawaii',
     url: 'https://youtu.be/0fStWP79Z5A&t=00s'
   },
@@ -30,10 +38,6 @@ const playlist = [
   {
     name: 'Anjunadeep 13 @ Lake Skadar',
     url: 'https://www.youtube.com/watch?v=QM7L27N8-rE&ab_channel=Anjunadeep'
-  },
-  {
-    name: 'Sub Focus & Wilkinson @ Corfe Castle',
-    url: 'https://www.youtube.com/watch?v=TRh-amAhOEw&ab_channel=Mixmag'
   },
   {
     name: 'Delta Heavy @ Rampage 2022',
