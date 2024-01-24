@@ -4,13 +4,13 @@
 
 **About me**
 
-- 💻 Jr. Full Stack AI Web Developer @ Originality.AI
+- 👨‍💻 Open to Work!
 
-- 👨‍💻 Web development graduate at Lighthouse Labs
+- 💻 Previously Jr. Full Stack AI Web Developer @ Originality.AI
 
-- 🎓 Graduated at UBC with an Economics degree (with a minor in Commerce)
+- 📚 Web development graduate at Lighthouse Labs
 
-- 📖 Currently reading The Pragmatic Programmer, by Andrew Hunt & David Thomas
+- 🎓 UBC Alumni (Economics/Commerce)
 
 <!-- - 📈 Learning TypeScript and Next.js building a Tiktok clone (find that [here](https://github.com/jimmyzhng/tiktok-clone)) -->
 
