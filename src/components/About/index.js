@@ -31,7 +31,7 @@ export default function About() {
 
           <p>
           I am currently open to new employment opportunities. I love working with JavaScript, and I am always looking to master new languages and technologies by building different projects. 
-          If you are curious, the full list of my skills and tech stack can be found on my<a className="page-link" href="https://resume.creddle.io/resume/b0vfq90c1j7" >resume</a>, or you can check out my Github to see what I'm currently working on.
+          If you are curious, the full list of my skills and tech stack can be found on my <a className="page-link" href="https://resume.creddle.io/resume/b0vfq90c1j7" >resume</a>, or you can check out my Github to see what I'm currently working on.
 
           </p>
 
