@@ -27,17 +27,16 @@ export default function About() {
               index={15} />
           </h1>
 
-          <p> Hey, I'm Jimmy, a full-stack web developer based in Vancouver, BC. Thanks for checking out my website, and I hope you've liked it so far :^&#41;</p>
+          <p> Hey, I'm Jimmy, a full-stack web developer based in Richmond, BC. Thanks for checking out my website, and I hope you've liked it so far :^&#41;</p>
 
           <p>
-            I am currently working as a Jr. Full Stack AI Web Developer at <a className="page-link" href="https://originality.ai/" >Originality.AI</a>. Also, I am helping out as a Web Developer for Google Developer Group in Vancouver.
-            I love working with JavaScript, but I am always looking to master new languages and technologies by working on and creating new things.
-            If you are curious, the full list of my skills and tech stack can be found on my <a className="page-link" href="https://resume.creddle.io/resume/b0vfq90c1j7" >resume</a>,
-            or you can check out my Github to see what I'm currently working on.
+          I am currently open to new employment opportunities. I love working with JavaScript, and I am always looking to master new languages and technologies by building different projects. 
+          If you are curious, the full list of my skills and tech stack can be found on my<a className="page-link" href="https://resume.creddle.io/resume/b0vfq90c1j7" >resume</a>, or you can check out my Github to see what I'm currently working on.
+
           </p>
 
-          <p> When I am not busy working on websites like this one, you will probably find me on my skateboard, on my bike, or hiking with some friends.
-            Also a big fan of dnb (drum and bass) and melodic dubstep, so you'll catch me DJing every now and then.</p>
+          <p> In my free time nowadays, I am usually on my bike or going out for a run. I am also working on my swimming in order to prepare for Ironman 70.3 Victoria in 2025. 
+            With whatever time is left, I enjoy spending my time on the trails: exploring, hiking, and trail running.</p>
 
           <p> If you are reading this, I would love to connect. Feel free to reach out if you want to chat, or if you have any questions about my experiences. I don't really ever know if anyone actually reads these things, so I would love to know if you checked my page out. Anyways, thanks for stopping by!  </p>
 
