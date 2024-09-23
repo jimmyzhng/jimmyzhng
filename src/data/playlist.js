@@ -4,10 +4,6 @@ const playlist = [
     url: 'https://www.youtube.com/watch?v=Np-lV0sl9Fw&ab_channel=OldScapeMusic'
   },
   {
-    name: 'Waterfall',
-    url: 'https://www.youtube.com/watch?v=D-rLFtiS1JA&ab_channel=OldScapeMusic'
-  },
-  {
     name: 'Spirit',
     url: 'https://www.youtube.com/watch?v=cZPE-45HJIQ&ab_channel=OldScapeMusic'
   },
@@ -18,6 +14,10 @@ const playlist = [
   {
     name: 'Harmony',
     url: 'https://www.youtube.com/watch?v=JkR7zClEkAo&ab_channel=OldScapeMusic'
+  },
+  {
+    name: 'Waterfall',
+    url: 'https://www.youtube.com/watch?v=D-rLFtiS1JA&ab_channel=OldScapeMusic'
   },
   {
     name: 'Adventure',
