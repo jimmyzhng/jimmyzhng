@@ -1,23 +1,27 @@
 const playlist = [
   {
     name: 'Dream',
-    url: 'https://www.youtube.com/watch?v=Np-lV0sl9Fw&list=PLA3CCrYGqFawo3BuPXD1ZHgINFGV76Vu3&index=73&ab_channel=OldScapeMusic'
-  },
-  {
-    name: "Yesteryear",
-    url: "https://www.youtube.com/watch?v=FMNAcMNedOc&list=PLA3CCrYGqFawo3BuPXD1ZHgINFGV76Vu3&ab_channel=OldScapeMusic"
-  },
-  {
-    name: 'Adventure',
-    url: 'https://www.youtube.com/watch?v=Z2Oci7962pI&list=PLA3CCrYGqFawo3BuPXD1ZHgINFGV76Vu3&index=108&ab_channel=OldScapeMusic'
+    url: 'https://www.youtube.com/watch?v=Np-lV0sl9Fw&ab_channel=OldScapeMusic'
   },
   {
     name: 'Waterfall',
-    url: 'https://www.youtube.com/watch?v=D-rLFtiS1JA&list=PLA3CCrYGqFawo3BuPXD1ZHgINFGV76Vu3&index=7&ab_channel=OldScapeMusic'
+    url: 'https://www.youtube.com/watch?v=D-rLFtiS1JA&ab_channel=OldScapeMusic'
+  },
+  {
+    name: 'Spirit',
+    url: 'https://www.youtube.com/watch?v=cZPE-45HJIQ&ab_channel=OldScapeMusic'
+  },
+  {
+    name: 'Garden',
+    url: 'https://www.youtube.com/watch?v=WtBigNNwcmo&ab_channel=OldScapeMusic'
   },
   {
     name: 'Harmony',
     url: 'https://www.youtube.com/watch?v=JkR7zClEkAo&ab_channel=OldScapeMusic'
+  },
+  {
+    name: 'Adventure',
+    url: 'https://www.youtube.com/watch?v=Z2Oci7962pI&ab_channel=OldScapeMusic'
   },
   {
     name: 'Autumn Voyage',
@@ -25,27 +29,23 @@ const playlist = [
   },
   {
     name: 'Still Night',
-    url: 'https://www.youtube.com/watch?v=XVjbGvHN-IY&list=PLA3CCrYGqFawo3BuPXD1ZHgINFGV76Vu3&index=20&ab_channel=OldScapeMusic'
-  },
-  {
-    name: 'Spirit',
-    url: 'https://www.youtube.com/watch?v=cZPE-45HJIQ&list=PLA3CCrYGqFawo3BuPXD1ZHgINFGV76Vu3&index=23&ab_channel=OldScapeMusic'
+    url: 'https://www.youtube.com/watch?v=XVjbGvHN-IY&index=20&ab_channel=OldScapeMusic'
   },
   {
     name: 'Newbie Melody',
-    url: 'https://www.youtube.com/watch?v=VNW9TAwImBY&list=PLA3CCrYGqFawo3BuPXD1ZHgINFGV76Vu3&index=39&ab_channel=OldScapeMusic'
+    url: 'https://www.youtube.com/watch?v=VNW9TAwImBY&ab_channel=OldScapeMusic'
+  },
+  {
+    name: "Yesteryear",
+    url: "https://www.youtube.com/watch?v=FMNAcMNedOc&list=PLA3CCrYGqFawo3BuPXD1ZHgINFGV76Vu3&ab_channel=OldScapeMusic"
   },
   {
     name: 'Medieval',
-    url: 'https://www.youtube.com/watch?v=QSkvyG3H_KM&list=PLA3CCrYGqFawo3BuPXD1ZHgINFGV76Vu3&index=44&ab_channel=OldScapeMusic'
-  },
-  {
-    name: 'Garden',
-    url: 'https://www.youtube.com/watch?v=WtBigNNwcmo&list=PLA3CCrYGqFawo3BuPXD1ZHgINFGV76Vu3&index=64&ab_channel=OldScapeMusic'
+    url: 'https://www.youtube.com/watch?v=QSkvyG3H_KM&ab_channel=OldScapeMusic'
   },
   {
     name: 'Flute Salad',
-    url: 'https://www.youtube.com/watch?v=LFgvAyJWkjU&list=PLA3CCrYGqFawo3BuPXD1ZHgINFGV76Vu3&index=66&ab_channel=OldScapeMusic'
+    url: 'https://www.youtube.com/watch?v=LFgvAyJWkjU&ab_channel=OldScapeMusic'
   },
   {
     name: 'The Trade Parade',
@@ -53,10 +53,8 @@ const playlist = [
   },
   {
     name: 'Fanfare',
-    url: 'https://www.youtube.com/watch?v=k0wd7pAVR1M&list=PLA3CCrYGqFawo3BuPXD1ZHgINFGV76Vu3&index=68&ab_channel=OldScapeMusic'
+    url: 'https://www.youtube.com/watch?v=k0wd7pAVR1M&ab_channel=OldScapeMusic'
   }
-
-
   // {
   //   name: 'Seven Lions @ Lake Kachess',
   //   url: 'https://youtu.be/D7CaablOAY8&t=00s'

@@ -30,6 +30,12 @@
     }
   }
 
+  .settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .progress-bar-div {
     display: flex;
     justify-content: center;
