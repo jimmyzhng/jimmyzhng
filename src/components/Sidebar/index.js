@@ -13,7 +13,7 @@ export default function Sidebar() {
     <div className="nav-bar">
       <Link className='logo' to='/'>
         <img src={LogoJ} alt="logo" />
-        <img className="sub-logo" src={LogoSubtitle} alt="jimmyzhng" />
+        {/* <img className="sub-logo" src={LogoSubtitle} alt="jimmyzhng" /> */}
       </Link>
 
       <nav className={showNav ? 'mobile-show' : ''}>
