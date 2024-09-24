@@ -50,12 +50,6 @@ export default function Sidebar() {
         </li>
 
         <li>
-          <a target="_blank" rel='noreferrer' href='https://medium.com/@jimmyzhng'>
-            <FaMedium color="4d4d4e" />
-          </a>
-        </li>
-
-        <li>
           <a target="_blank" rel='noreferrer' href='https://twitter.com/jimmyzhangio'>
             <FaTwitter color="4d4d4e" />
           </a>
