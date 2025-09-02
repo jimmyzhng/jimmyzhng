@@ -1,14 +1,14 @@
 <p align="center">
-<img align="center" src="https://readme-typing-svg.herokuapp.com?font=Helvetica+Neue&weight=500&size=25&duration=2500&pause=250&color=0002fd&center=true&vCenter=true&multiline=true&repeat=false&width=435&height=100&lines=Jimmy+Zhang;Full-Stack+Web+Developer" alt="Typing SVG" />
+<img align="center" src="https://readme-typing-svg.herokuapp.com?font=Helvetica+Neue&weight=500&size=25&duration=2500&pause=250&color=0002fd&center=true&vCenter=true&multiline=true&repeat=false&width=435&height=100&lines=Jimmy+Zhang;Full-Stack+Developer" alt="Typing SVG" />
 </p>
 
 **About me**
 
 - 👨‍💻 Open to Work!
 
-- 💻 Previously Jr. Full Stack AI Web Developer @ Originality.AI
+- 💻 Prev. Full-Stack Developer @ Originality.AI (Vue.js, Python, PHP, HTML, CSS)
 
-- 📚 Web development graduate at Lighthouse Labs
+- 📚 Web development graduate @ Lighthouse Labs
 
 - 🎓 UBC Alumni (Economics/Commerce)
 
