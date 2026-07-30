@@ -4,11 +4,11 @@
 
 **About me**
 
-- 👨‍💻 Open to Work!
+- 👨‍💻 IT Analyst building internal tools @ Dan-D-Pak (React, TypeScript, PHP)
 
-- 💻 Prev. Full-Stack Developer @ Originality.AI (Vue.js, Python, PHP, HTML, CSS)
+- 💻 Prev. Full-Stack Developer @ Originality.AI (Vue.js, Python, PHP)
 
-- 📚 Web development graduate @ Lighthouse Labs
+- 📚 Web development @ Lighthouse Labs
 
 - 🎓 UBC Alumni (Economics/Commerce)
 
