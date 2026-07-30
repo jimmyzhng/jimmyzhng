@@ -24,9 +24,7 @@ Check out my portfolio [website](https://www.jimmyzhng.com)! :^)
 
 ## 📈 My Github Stats:
 
-| [![Jimmy's GitHub stats](https://github-stats-extended.vercel.app/api?username=jimmyzhng)](https://github.com/stats-organization/github-stats-extended)
-
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+ [![Jimmy's GitHub stats](https://github-stats-extended.vercel.app/api?username=jimmyzhng)](https://github.com/stats-organization/github-stats-extended)
 
 ## 🎶 What I'm Listening To:
 
