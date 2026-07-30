@@ -24,7 +24,8 @@ Check out my portfolio [website](https://www.jimmyzhng.com)! :^)
 
 ## 📈 My Github Stats:
 
-| <a><img align="center" src="https://github-readme-stats.vercel.app/api?username=jimmyzhng&show_icons=true&include_all_commits=true&theme=graywhite&hide_border=true"/></a> | <a><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jimmyzhng&layout=compact&theme=graywhite&hide_border=true" /></a> |
+| [![Jimmy's GitHub stats](https://github-stats-extended.vercel.app/api?username=jimmyzhng)](https://github.com/stats-organization/github-stats-extended)
+
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 ## 🎶 What I'm Listening To:
