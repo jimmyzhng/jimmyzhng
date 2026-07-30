@@ -28,6 +28,4 @@ Check out my portfolio [website](https://www.jimmyzhng.com)! :^)
 
 ## 🎶 What I'm Listening To:
 
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=jimmyzhng&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=jimmyzhng&redirect=true)
-
-![](https://komarev.com/ghpvc/?username=jimmyzhng&color=lightgrey)
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=jimmyzhng&cover_image=true&theme=default&show_offline=true&background_color=000000&interchange=true&profanity=true&hide_remaster=false&bar_color_cover=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=jimmyzhng&redirect=true)
