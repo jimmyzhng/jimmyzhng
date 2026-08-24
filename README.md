@@ -22,10 +22,6 @@ Check out my portfolio [website](https://www.jimmyzhng.com)! :^)
 
 <a href="mailto:jimmyzhang1@hotmail.com"><img src="https://cdn-icons-png.flaticon.com/512/9068/9068642.png" width="35px"/></a>
 
-## 📈 My Github Stats:
-
- [![Jimmy's GitHub stats](https://github-stats-extended.vercel.app/api?username=jimmyzhng)](https://github.com/stats-organization/github-stats-extended)
-
 ## 🎶 What I'm Listening To:
 
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=jimmyzhng&cover_image=true&theme=default&show_offline=true&background_color=000000&interchange=true&profanity=true&hide_remaster=false&bar_color_cover=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=jimmyzhng&redirect=true)
