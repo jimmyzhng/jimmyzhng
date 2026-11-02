@@ -1,6 +1,6 @@
 **About me**
 
-- 👨‍💻 IT Analyst building internal tools @ Dan-D-Pak (React, TypeScript, PHP)
+- 👨‍💻 IT Analyst building @ Dan-D-Pak (React, TypeScript, PHP)
 
 - 💻 Prev. Full-Stack Developer @ Originality.AI (Vue.js, Python, PHP)
 
