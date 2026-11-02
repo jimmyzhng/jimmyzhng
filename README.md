@@ -1,6 +1,6 @@
 **About me**
 
-- 👨‍💻 IT Analyst building @ Dan-D-Pak (React, TypeScript, PHP)
+- 👨‍💻 Currently building @ Dan-D Foods (React, TypeScript, PHP, MSSQL)
 
 - 💻 Prev. Full-Stack Developer @ Originality.AI (Vue.js, Python, PHP)
 
